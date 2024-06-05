@@ -1,0 +1,22 @@
+.body{
+  background: url('back.jpg') no-repeat;
+}
+.text{
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+/*BREAKPOINTS*/
+@media(max-width: 1020){
+  .text{
+    width: 58px;
+  }
+}
+@media(max-width: 515){
+  .text{
+    width: 100px;
+    display: block;
+  }
+}
